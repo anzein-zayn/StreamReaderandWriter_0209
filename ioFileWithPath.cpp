@@ -12,6 +12,9 @@ int main ()
     cin >> NamaFile;
     //membuat obyek output input file stream dalam mode menulis
     ofstream outfile;
+    //membuka file
+    outfile.open(NamaFile + ".txt");
+    cout << ">= Menulis File, \'q\' untuk keluar" << endl;
 
     outfile.open(NamaFile + ".txt", ios ::out);
 
