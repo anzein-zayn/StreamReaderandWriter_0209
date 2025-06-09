@@ -9,5 +9,9 @@ int main ()
 
     //membuat obyek output input file stream dalam mode menulis
     ofstream outfile;
+    //membuka file
+    outfile.open("contoh.txt");
+    cout << ">= Menulis File, \'q\' untuk keluar" << endl;
+
 
 }
