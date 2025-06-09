@@ -1,0 +1,4 @@
+cd "d:\SEMESTER 2\Pemograman Dasar\Meet 12\" ; if ($?) { g++ ioFIle.cpp -o ioFIle } ; if ($?) { .\ioFIle }
+cd "d:\SEMESTER 2\Pemograman Dasar\Meet 12\" ; if ($?) { g++ ioFIle.cpp -o ioFIle } ; if ($?) { .\ioFIle }
+Zein
+File
