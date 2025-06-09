@@ -8,8 +8,9 @@ int main ()
     string baris;
     string NamaFile;
 
-    cout << "Masukan Nama File : " << NamaFile ;
-
+    cout << "Enter File Name : " ;
+    cin >> NamaFile;
+    //membuat obyek output input file stream dalam mode menulis
     ofstream outfile;
 
     outfile.open(NamaFile + ".txt", ios ::out);
