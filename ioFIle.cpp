@@ -26,5 +26,11 @@ int main ()
         outfile << baris << endl;
     }
 
+  outfile.close();
+
+    //membuat obyek input file steram dalam mode membaca
+    ifstream infile;
+
+
   
 }
